@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "15838432",
+      "name": "browse",
+      "font_class": "browse",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "15838465",
+      "name": "electronics",
+      "font_class": "electronics",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
       "icon_id": "15838497",
       "name": "lock",
       "font_class": "lock",
@@ -13,11 +27,32 @@
       "unicode_decimal": 58998
     },
     {
+      "icon_id": "15838536",
+      "name": "survey",
+      "font_class": "survey",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "15838549",
+      "name": "work",
+      "font_class": "work",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
       "icon_id": "15838606",
       "name": "user-filling",
       "font_class": "user-filling",
       "unicode": "e68b",
       "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "15838609",
+      "name": "work-filling",
+      "font_class": "work-filling",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
     }
   ]
 }
