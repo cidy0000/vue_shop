@@ -30,8 +30,12 @@ import {
     Option,
     Cascader,
     Alert,
-    Tables,
-    TabPane
+    Tabs,
+    TabPane,
+    Steps,
+    CheckboxGroup,
+    Checkbox,
+    Upload
 
 } from 'element-ui'
 
@@ -64,8 +68,12 @@ Vue.use(Select)
 Vue.use(Option)
 Vue.use(Cascader)
 Vue.use(Alert)
-Vue.use(Tables)
+Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(CheckboxGroup)
+Vue.use(Checkbox)
+Vue.use(Upload)
 
 
 Vue.prototype.$message = Message
