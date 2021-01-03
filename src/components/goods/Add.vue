@@ -267,7 +267,7 @@ export default {
        },
     //    添加商品
        add() {
-          this.$refs.addFormRef.validate(valid => {
+          this.$refs.addFormRef.validate(async valid => {
               if(!valid) {
                   return this.$message.error('请填写必要的表单项！')
               }
@@ -296,7 +296,7 @@ export default {
 
               //发起请求添加商品
               //商品的名称，必须是唯一的
-              const {data: ress} = await this.$http.post('goods', form)
+              const {data: res} = await this.$http.post(`goods`, form)
 
               if(res.meta.status !== 201){
                   return this.$message.error('添加商品失败！')
