@@ -1,4 +1,7 @@
 import Vue from 'vue'
+import Timeline from './timeline/index'
+import TimelineItem from './timeline-item/index'
+
 import {
     Button,
     Form,
@@ -39,9 +42,6 @@ import {
 
 } from 'element-ui'
 
-
-import Timeline from './timeline/index.js'
-import TimelineItem from './timeline-item/index.js'
 
 
 Vue.use(Button)

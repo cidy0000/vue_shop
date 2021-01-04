@@ -97,7 +97,7 @@
 </template>
 
 <script>
-import cidyData from './cidydata.js'
+import cidyData from './cidy_data.js'
 export default {
     data() {
         return{
