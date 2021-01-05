@@ -6,6 +6,7 @@ import './plugins/element.js'
 import './assets/css/global.css'
 //导入字体图标
 import './assets/fonts/iconfont.css'
+//导入表格树
 import TreeTable from 'vue-table-with-tree-grid'
 
 // 导入富文本编辑器

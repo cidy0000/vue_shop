@@ -2,30 +2,30 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import Login from './components/Login.vue'
 const Login = () =>
-    import ( /* webpackChunkName: "login_home_welcome" */ './components/Login.vue')
+    import ( /* webpackChunkName: "Login_Home_Welcome" */ './components/Login.vue')
     // import Home from './components/Home.vue'
 const Home = () =>
-    import ( /* webpackChunkName: "login_home_welcome" */ './components/Home.vue')
+    import ( /* webpackChunkName: "Login_Home_Welcome" */ './components/Home.vue')
     // import Welcome from './components/Welcome.vue'
 const Welcome = () =>
-    import ( /* webpackChunkName: "login_home_welcome" */ './components/Welcome.vue')
+    import ( /* webpackChunkName: "Login_Home_Welcome" */ './components/Welcome.vue')
 
 // import Users from './components/user/Users.vue'
 // import Rights from './components/power/Rights.vue'
 // import Roles from './components/power/Roles.vue'
 const Users = () =>
-    import ( /* webpackChunkName: "users_rights_roles" */ './components/user/Users.vue')
+    import ( /* webpackChunkName: "Users_Rights_Roles" */ './components/user/Users.vue')
 const Rights = () =>
-    import ( /* webpackChunkName: "users_rights_roles" */ './components/power/Rights.vue')
+    import ( /* webpackChunkName: "Users_Rights_Roles" */ './components/power/Rights.vue')
 const Roles = () =>
-    import ( /* webpackChunkName: "users_rights_roles" */ './components/power/Roles.vue')
+    import ( /* webpackChunkName: "Users_Rights_Roles" */ './components/power/Roles.vue')
 
 // import Cate from './components/goods/Cate.vue'
 // import Params from './components/goods/Params.vue'
 const Cate = () =>
-    import ( /* webpackChunkName: "cate_params" */ './components/goods/Cate.vue')
+    import ( /* webpackChunkName: "Cate_Params" */ './components/goods/Cate.vue')
 const Params = () =>
-    import ( /* webpackChunkName: "cate_params" */ './components/goods/Params.vue')
+    import ( /* webpackChunkName: "Cate_Params" */ './components/goods/Params.vue')
 
 // import GoodsList from './components/goods/List.vue'
 // import Add from './components/goods/Add.vue'
@@ -37,9 +37,9 @@ const Add = () =>
 // import Order from './components/order/Order.vue'
 // import Report from './components/report/Report.vue'
 const Order = () =>
-    import ( /* webpackChunkName: "order_report" */ './components/order/Order.vue')
+    import ( /* webpackChunkName: "Order_Report" */ './components/order/Order.vue')
 const Report = () =>
-    import ( /* webpackChunkName: "order_report" */ './components/report/Report.vue')
+    import ( /* webpackChunkName: "Order_Report" */ './components/report/Report.vue')
 
 Vue.use(Router)
     //兼容IE报错
@@ -81,6 +81,7 @@ router.beforeEach((to, from, next) => {
     if (to.path === '/login') return next();
     //获取token
     const tokenStr = window.sessionStorage.getItem('token')
+        //没有token， 强制跳转到登录页
     if (!tokenStr) return next('/login')
     next()
 
@@ -91,7 +92,4 @@ router.beforeEach((to, from, next) => {
 //     if (onResolve || onReject) return originalPush.call(this, location, onResolve, onReject)
 //     return originalPush.call(this, location).catch(err => err)
 // }
-
-
-
 export default router

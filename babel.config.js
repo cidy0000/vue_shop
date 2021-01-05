@@ -4,7 +4,7 @@ if (Process.env.NODE_ENV === 'production') {
     prodPlugins.push('transform-remove-console')
 }
 module.exports = {
-    presets: ['@vue/app'],
+    presets: ['@vue/cli-plugin-babel/preset'],
     plugins: [
         [
             'component',
