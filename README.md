@@ -31,7 +31,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ##  电商后台管理系统(前端项目）  [预览](http://huangzun.top:8888/)
 
-### 后端API接口源码  [下载](https://gitee.com/wBekvam/vueShop-api-server.git).  [接口API](./api接口文档.md)
+### 后端API接口源码  [下载](https://gitee.com/han-chuchen/vue_shops_api_sever).  [接口API](./api接口文档.md)
 
 > 有问题的道友，欢迎加群讨论，将为您悉心解答：827923683
 
@@ -86,10 +86,19 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 4. 配置 Element-UI 组件库
 5. 配置 Axios 库
 6. 初始化 git 远程仓库
+7. 将本地项目托管到GitHub或码云中
 
 ##### 相关依赖-按需导入
 
-![](https://gitee.com/wBekvam/vue-shop-admin/raw/master/image/mall_desc03.png)
+### 运行依赖
+
+![image-20210105112313816](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210105112313816.png)
+
+### 开发依赖
+
+![image-20210105112412937](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210105112412937.png)
+
+
 
 #### 后端项目的环境安装配置
 
@@ -130,6 +139,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - el-input
 - el-button
 - 字体图标
+
+字体图标获取地址：
 
 ##### 创建git分支
 
@@ -518,4 +529,4 @@ app.use(compression())
 
 ![data](https://gitee.com/wBekvam/vue-shop-admin/raw/master/image/data.png)
 
-我是一个小小的码源搬运工，此整理笔记来自https://gitee.com/wBekvam/vue-shop-admin
+我是一个小小的码源搬运工，此整理笔记有增改，详情请点击https://gitee.com/wBekvam/vue-shop-admin
