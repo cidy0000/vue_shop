@@ -91,7 +91,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ##### 相关依赖-按需导入
 
 ### 运行依赖
-
 ![](https://gitee.com/han-chuchen/vue_shops/blob/master/images/oper.png)
 
 ### 开发依赖
