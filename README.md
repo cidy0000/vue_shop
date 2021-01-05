@@ -92,11 +92,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 运行依赖
 
-![oper](C:\Users\Administrator\Desktop\项目实战1\code\vue-shop\images\oper.png)
+![oper](https://gitee.com/han-chuchen/vue_shops/blob/master/images/oper.png)
 
 ### 开发依赖
 
-![expl](C:\Users\Administrator\Desktop\项目实战1\code\vue-shop\images\expl.png)
+![expl](https://gitee.com/han-chuchen/vue_shops/blob/master/images/expl.png)
 
 
 
