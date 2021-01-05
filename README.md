@@ -92,11 +92,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 运行依赖
 
-![image-20210105112313816](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210105112313816.png)
+![oper](C:\Users\Administrator\Desktop\项目实战1\code\vue-shop\images\oper.png)
 
 ### 开发依赖
 
-![image-20210105112412937](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210105112412937.png)
+![expl](C:\Users\Administrator\Desktop\项目实战1\code\vue-shop\images\expl.png)
 
 
 
@@ -367,7 +367,7 @@ axios.interceptors.request.use(config => {
     > 2. 在index.html头部区域中,通过cdn加载element-ui的js和css样式
     >
     >        `<link href="https://cdn.bootcss.com/element-ui/2.12.0/theme-chalk/index.css" rel="stylesheet">`
-    >        
+    >            
     >            `<script src="https://cdn.bootcss.com/element-ui/2.12.0/index.js"></script>`
 
 - 首页内容定制
